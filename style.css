@@ -76,6 +76,7 @@ body {
 .budget__expenses {
 	padding: 12px;
 	text-transform: uppercase;
+	border-radius: 8px;
 }
 
 .budget__income {
@@ -214,6 +215,51 @@ body {
 	vertical-align: middle;
 	line-height: 1.1;
 	margin-left: 10px;
+}
+
+
+
+/* CSS */
+.add__btn {
+  align-items: center;
+  border: 0.5px solid #e7e7e7;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  justify-content: center;
+  margin: 0;
+  min-height: 2rem;
+  padding: calc(.875rem - 1px) calc(1rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.add__btn:hover,
+.add__btn:focus {
+  border-color: rgba(255, 255, 255, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.add__btn:hover {
+  transform: translateY(-1px);
+}
+
+.add_btn:active {
+  background-color: #f0f0f100;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
 }
 
 .add__btn:active {
